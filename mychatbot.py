@@ -33,7 +33,7 @@ llm = ChatGroq (
     temperature="0.1"
 )
 ## input box
-user_prompt = st.chat_input("Ask chatbot...")
+user_prompt = st.chat_input("Ask any question to chatbot...")
 
 if user_prompt:
     st.chat_message("user").markdown(user_prompt)
